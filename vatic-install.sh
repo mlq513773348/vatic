@@ -9,8 +9,9 @@ sudo apt-get install git python-setuptools python-dev libavcodec-dev libavformat
 # Clone revevant repos
 git clone https://github.com/johndoherty/turkic.git
 git clone https://github.com/cvondrick/pyvision.git
-git clone https://github.com/johndoherty/vatic.git
-git clone https://github.com/johndoherty/vatic_tracking.git
+git clone https://github.com/mlq513773348/vatic.git
+git clone https://github.com/mlq513773348/vatic_scripts.git
+git clone https://github.com/mlq513773348/vatic_tracking.git
 # PIL compile need freetype which is renamed
 ln -s /usr/include/freetype2 /usr/include/freetype
 pip install -r vatic/requirements.txt -U --allow-all-external --allow-unverified PIL
