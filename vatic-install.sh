@@ -11,7 +11,8 @@ git clone https://github.com/johndoherty/turkic.git
 git clone https://github.com/cvondrick/pyvision.git
 git clone https://github.com/johndoherty/vatic.git
 git clone https://github.com/johndoherty/vatic_tracking.git
-
+# PIL compile need freetype which is renamed
+ln -s /usr/include/freetype2 /usr/include/freetype
 pip install -r vatic/requirements.txt -U --allow-all-external --allow-unverified PIL
 
 cd turkic
